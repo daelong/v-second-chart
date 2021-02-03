@@ -8,13 +8,13 @@
       </div>
       <div class="column">
         <h3>Bar Chart</h3>
-        <bar-chart :data="chartData"></bar-chart>
+        <bar-chart :data="[['Work', 1322], ['Play', 1492]]"></bar-chart>
       </div>
     </div>
     <div class="columns">
       <div class="column">
         <h3>Scatter Chart</h3>
-        <scatter-chart :data="chartData"></scatter-chart>
+        <scatter-chart :data="[[174.0, 80.0], [176.5, 82.3], [180.3, 73.6]]"></scatter-chart>
       </div>
       <div class="column">
         <h3>Downloadable Line Chart</h3>
